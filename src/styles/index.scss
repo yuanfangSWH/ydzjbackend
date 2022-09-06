@@ -1,0 +1,119 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+/* 大屏幕 ：大于等于1200px*/
+@media (min-width: 1200px) { body{min-width: 1280px;} }
+  
+/*默认*/
+@media (min-width: 980px){}
+  
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {  }
+  
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width: 767px) {  }
+  
+/* 横向放置的手机及分辨率更小的设备 */
+@media (max-width: 480px) {  }
+body {
+  height: 100%;
+  // min-width: 1280px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+*::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 14px;
+}
+*::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 10px;
+  background: #535353;
+  }
+*::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  border-radius: 10px;
+  background: #EDEDED;
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+// 新增样式--zxy
+#app .main-container{ background-color: #f1f1f1;}
+.el-table__header{ border: 1px solid #dfdfdf; background-color: #F4F4F4;}
+.el-table thead,.el-table th{ background-color: #F4F4F4; color: #0A0A0A;}
+.el-table--striped .el-table__body tr.el-table__row--striped td{background: #F8F8F8;}
+.el-table td, .el-table th.is-leaf{border: none;}
+.yellow-t{ color: #DDA100;}
+.green-t{ color: #41B300;}
+// .el-button--danger,.el-button--primary{background-color: #1F1F1F;border: none;color: #ffffff;}
+// .el-button--primary:hover,.el-button--primary:active{ background-color: #1f1f1f;}
+.el-input__suffix{ color: #000 !important; font-weight: 900;}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background-color: $buttonActive;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background-color: $buttonActive; border: none; color: #0A0A0A;
+}
+.el-checkbox__inner::after{ border-color: #0A0A0A;}
+.el-checkbox__input.is-indeterminate .el-checkbox__inner::before{ background-color: #0A0A0A;}
+.page-title{ width: 100%; color: #0A0A0A; font-size: 24px; padding: 10px 0;}
+.form_button{background: $formButton;}
+.font12{font-size: 12px;}
+.font14{font-size: 14px;}
+.font16{font-size: 16px;}

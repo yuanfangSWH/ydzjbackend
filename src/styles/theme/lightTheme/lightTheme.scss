@@ -1,0 +1,1140 @@
+@import '../../variables.scss';
+
+.lightTheme {
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+  }
+
+  .shopSet {
+    background: #F1F1F1;
+
+    .layoutTop {
+
+
+      .meauNav {
+        .meau-box1 {
+          background-color: #1a1a1a;
+
+          .meau-list {
+            .t-s01 {
+              color: #ffffff;
+            }
+
+            .layer-nav {
+              background: #ffffff;
+              border-left: 1px solid #0a0a0a;
+              border-bottom: 1px solid #0a0a0a;
+
+              .list-nav {
+                color: #000;
+              }
+            }
+          }
+
+          .active {
+            background-color: #ffffff;
+
+            .t-s01 {
+              color: #0a0a0a;
+            }
+          }
+        }
+      }
+
+      .topLogo {
+        color: #ffffff;
+        background-color: $menuBg;
+      }
+
+      .topLeft {
+        .topIcon01 {
+          color: #ffbe11;
+        }
+
+        .topConsole {
+          background-color: #ffbe11 !important;
+          color: #0a0a0a !important;
+
+          i {
+            color: #0a0a0a !important;
+          }
+        }
+
+        .el-button {
+          background-color: #2e2e2e;
+          color: #ffffff;
+        }
+      }
+
+      .topRight {
+        .topIcon02 {
+          color: #b8b8b8;
+        }
+
+        .topNav {
+          .txnav {
+            background-color: #b8b8b8;
+          }
+
+          .shopNameNav {
+            .name-span {
+              color: #ffffff;
+            }
+
+            .topIcon03 {
+              color: #b8b8b8;
+            }
+          }
+        }
+      }
+    }
+
+    /*---滚动框背景样式--*/
+    ::-webkit-scrollbar-track-piece {
+      background: #DFDFDF !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #fff;
+    }
+
+    .iconBtn {
+      background: #F8F8F8;
+      color: #8d8d8d;
+      border: 1px solid #CECECE;
+    }
+
+    .topBox {
+      background: #FFFFFF;
+      // color: #dfdfdf;
+      border: 1px solid #DFDFDF;
+
+      .reserve_day {
+        background: #FFFFFF;
+        border: 1px solid #CECECE;
+
+        li {
+          border: 1px solid #CECECE;
+
+          &:hover {
+            background-color: #F1F1F1;
+            // color: #ffbe11;
+            // .days {
+            //   color: #ffbe11;
+            // }
+          }
+
+          // .days {
+          //   color: #dfdfdf;
+          // }
+        }
+
+        .active {
+          // color: #ffbe11;
+          background-color: #F1F1F1;
+          // .days {
+          //   color: #ffbe11;
+          // }
+        }
+      }
+
+      // .checkType{
+      // color: #DFDFDF;
+      .searchSVG {
+        background: #FFE190;
+        color: #0a0a0a;
+      }
+
+      .searchSVG i {
+        color: #0a0a0a;
+      }
+
+      .searchDay input.el-input__inner,
+      .searchPlaceOrPhone input.el-input__inner {
+        background: #fff !important;
+        color: #777777 !important;
+        border: 1px solid #CECECE !important;
+      }
+
+      // .searchPlaceOrPhone {
+      //   background: #1f1f1f;
+      //   color: #dfdfdf;
+      // }
+    }
+
+    .mainContent {
+      .placeType {
+        background: #fff;
+
+        ul {
+          .placeTypeLi {
+            color: #0A0A0A;
+
+            &:hover {
+              background: #CECECE;
+            }
+          }
+
+          .active {
+            background: #CECECE;
+          }
+        }
+      }
+
+      .placeArea {
+        background: #fff;
+        border: 1px solid #CECECE;
+        border-right: none;
+
+        ul {
+          .placeAreaRight {
+            background: #ffffff;
+
+          }
+
+          .placeAreaLi {
+            color: #0A0A0A;
+
+            &:hover {
+              background: #CECECE;
+              color: #0a0a0a;
+            }
+          }
+
+          .placeAreaBtn {
+            background: #CECECE;
+            color: #0a0a0a;
+            // border: 1px solid #DDA100;
+          }
+
+          .active {
+            background: #CECECE;
+            color: #0a0a0a;
+          }
+        }
+      }
+
+      .placeMain {
+        .placeBox {
+          .centerPlace {
+            background: #F8F8F8;
+          }
+
+          .placeUl {
+            background: #F8F8F8;
+
+            .darkBg {
+              background: #F1F1F1 !important;
+
+              .guzhang {
+                color: #a5a5a5;
+              }
+            }
+
+            .placeBoxLi {
+              border: 1px solid #CECECE;
+              color: #666666;
+              background: #ffffff;
+
+              .icon-seat2 {
+                color: #cecece;
+              }
+
+              .checkBox {
+                border: 2px solid #ccc;
+              }
+
+              .placeQueue {
+                i {
+                  color: #ffbe11;
+                }
+              }
+
+              .iconBox {
+                .placeMenu {
+                  i {
+                    color: #ffbe11;
+                  }
+                }
+              }
+
+              // 1空闲 2消费中 3故障 4已结账 5清洁中 6锁定
+              .reserveBg {
+                background: #F04848 !important;
+                color: #0A0A0A;
+                font-weight: bold;
+              }
+
+              .callingBg {
+                background: #f04848 !important;
+                color: #0A0A0A;
+                font-weight: bold;
+              }
+
+              .titleStatus2 {
+                background: #FFBE11;
+                color: #0A0A0A;
+                font-weight: bold;
+              }
+
+              .titleStatus3 {
+                background: #a480ec;
+                color: #0A0A0A;
+                font-weight: bold;
+              }
+
+              .titleStatus6 {
+                background: #ff5faf;
+                color: #0A0A0A;
+                font-weight: bold;
+              }
+
+              .titleStatus4 {
+                background: #37b474;
+                color: #0A0A0A;
+                font-weight: bold;
+              }
+
+              .titleStatus5 {
+                background: #ff7b05;
+                color: #0A0A0A;
+                font-weight: bold;
+              }
+
+              .titleStatus1 {
+                background: #2e2e2e;
+                color: #fff;
+                font-weight: bold;
+              }
+
+              .guzhang {
+                font-size: 26px;
+                margin-bottom: 5px;
+              }
+            }
+          }
+
+          .serviceTip {
+            background: #fff;
+
+            button.serviceBtn {
+              border: 1px solid #CECECE !important;
+              color: #0A0A0A;
+
+              i {
+                border: 1px solid #fff;
+              }
+
+              .reserved {
+                background: #f04848;
+              }
+
+              .calling {
+                background: #f04848;
+              }
+
+              .consumpting {
+                background: #ffbe11;
+              }
+
+              .cleaning {
+                background: #ff7b05;
+              }
+
+              .fault {
+                background: #a480ec;
+              }
+
+              .notOpen {
+                background: #ff5faf;
+              }
+
+              .closed {
+                background: #37B474;
+              }
+
+              .free {
+                background: #2e2e2e;
+              }
+
+              .foot-icon {
+                border: none !important;
+                color: #ffbe11;
+              }
+
+              .huiseIcon {
+                color: #A5A5A5 !important;
+              }
+            }
+
+            .active {
+              background: #F1F1F1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .consolePlaceInfo {
+    background-color: #F1F1F1 !important;
+
+    .tabNav .el-tabs__content {
+      background: #FFFFFF;
+      color: #0A0A0A !important;
+    }
+
+    .tabNav .el-tabs__header {
+      background: #F8F8F8;
+      color: #2E2E2E !important;
+    }
+
+    .tabNav .el-tabs__item {
+      background-color: #F8F8F8;
+      color: #2E2E2E !important;
+    }
+
+    .tabNav .is-active {
+      background-color: #fff !important;
+      color: #DDA100 !important;
+    }
+
+    .tabNav .reserveForm .el-form-item {
+      .el-form-item__label {
+        color: #fff !important;
+      }
+    }
+
+    .topNav .updateStatus .el-input__inner {
+      background-color: #2e2e2e !important;
+      color: #fff !important;
+    }
+
+    .mainContent .el-tabs--border-card {
+      background-color: #2e2e2e !important;
+    }
+
+    .subBox {
+      background: #FFFFFF;
+    }
+
+    .billBox {
+      color: #0A0A0A !important;
+    }
+  }
+
+  .mutilPlace {
+    background: #F1F1F1;
+
+    .topNav {
+      color: #fff !important;
+
+      .topNavBtn {
+        background: #ffbe11;
+        color: #0a0a0a;
+      }
+
+      .placeTypeInfo {
+        background: #2e2e2e;
+        border: 1px solid #555555;
+      }
+    }
+
+    .placeList {
+      .mutilPlaceName {
+        li {
+          background: #2e2e2e;
+          color: #fff;
+        }
+      }
+    }
+
+    .mainContent {
+      background: #FFFFFF;
+      border: 1px solid #DFDFDF;
+
+      .changeStatusForm {
+        color: rgb(124, 111, 111);
+        background-color: #fff;
+
+        .changeStatusBtn {
+          background: #F1F1F1;
+        }
+
+        .submitBtn {
+          background: #ffbe11;
+          color: #0a0a0a;
+        }
+
+        .span-box {
+          .time-span {
+            background: #2e2e2e;
+          }
+        }
+      }
+
+      .topNavItem {
+        border-bottom: 1px solid #DFDFDF;
+        color: #0A0A0A;
+        background-color: #F8F8F8;
+      }
+
+      ::v-deep .el-form-item__label {
+        color: #ffffff !important;
+      }
+
+      ::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+        color: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked .el-radio__inner {
+        border-color: #ffbe11;
+        background: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked+.el-radio__label {
+        color: #ffbe11;
+      }
+
+      .sActive {
+        color: #0a0a0a;
+        background: #ffbe11 !important;
+      }
+    }
+  }
+
+  // 点单页面
+  .OrderMeal {
+    background-color: #F1F1F1;
+
+    .topNav {
+      background: #1a1a1a url("/static/img/topbg.076c01a6.png") no-repeat right top;
+      color: #fff;
+
+      .topNavBtn {
+        background: #ffbe11;
+        color: #0a0a0a;
+      }
+
+      .titleType {
+        color: #ffbe11;
+      }
+
+      .topNavTip {
+        border: 1px dashed #555555;
+      }
+    }
+
+    .placeList {
+      .mutilPlaceName {
+        li {
+          background: #2e2e2e;
+          color: #fff;
+        }
+      }
+    }
+
+    .menuRight {
+      background-color: #fff;
+      float: left;
+      // height: calc(100% - 110px);
+      box-shadow: 0px 0px 6px #ccc;
+
+      .guestMenu {
+        color: #0A0A0A;
+
+        p:first-child {
+          color: #000000
+        }
+
+        p:nth-child(n+1) {
+          color: #0A0A0A
+        }
+      }
+
+      .menuRightBg {}
+
+      div {
+        .itemTitle {
+          color: #000;
+        }
+
+        .shopItem {
+          color: #0A0A0A;
+          border-bottom: 1px dashed #DFDFDF;
+        }
+
+        .lastShopItem {
+          border-bottom: 0px;
+          color: #0A0A0A;
+        }
+
+        .orderMealInfo {
+          border-top: 1px solid #DFDFDF;
+          border-bottom: 1px solid #DFDFDF;
+          color: #0A0A0A;
+        }
+
+        .lastOrderMealInfo {
+          border-bottom: 0px;
+          color: #0A0A0A;
+        }
+      }
+
+      .payment {
+        color: #0A0A0A;
+        box-shadow: 0px -4px 3px #f4f4f4;
+
+        .el-button {
+          background-color: #FFBE11;
+          color: #0A0A0A;
+        }
+      }
+    }
+
+    .mainContent {
+      background: #FFFFFF;
+      color: #0A0A0A;
+
+      // color:#fff
+      .shoppingCart {
+        background-color: #fff;
+        box-shadow: 0px 0px 6px #ccc;
+        ;
+
+        .shopTitle {
+          color: #0A0A0A;
+          background-color: #F8F8F8;
+        }
+
+        .shoppingCartList {
+          .goodsInfo {
+            .goodsTitle {
+              .goodsName {
+                color: #0A0A0A;
+              }
+
+              .goodsNumber {
+                color: #b8b8b8;
+              }
+            }
+
+            .goodsSubTitle {
+              color: #dda100;
+            }
+
+            .caleGoodsNumber {
+              color: #0A0A0A;
+            }
+          }
+        }
+
+        ul {
+          li {
+            border-bottom: 1px dashed #DFDFDF;
+          }
+        }
+
+        .placeOrderBox {
+          height: 200px;
+          color: #0A0A0A;
+          padding-top: 20px;
+          box-shadow: 0px -4px 3px #f4f4f4;
+        }
+
+        .placeOrderBtn {
+          color: #0A0A0A;
+          background-color: #FFBE11;
+          width: 330px;
+          height: 42px;
+          margin-left: 35px;
+          border: none;
+        }
+      }
+    }
+
+    .shopBox {
+      ::v-deep .el-input__inner {
+        background-color: #fff !important;
+        border: 1px solid #cecece;
+      }
+
+      .arrtActive {
+        background-color: #ffe190 !important;
+        border: 1px solid #ffbe11 !important;
+      }
+    }
+
+    .payBox {
+      ::v-deep .el-input__inner {
+        background-color: #fff !important;
+        border: 1px solid #cecece;
+      }
+    }
+
+    .el-textarea__inner {
+      // background-color: #1a1a1a;
+      border: 1px solid #DFDFDF !important;
+      // color: #b8b8b8;
+    }
+
+    .mainTable {
+      .el-input__inner {
+        background-color: #F8F8F8 !important;
+        border: none;
+        border-bottom: 1px solid #DFDFDF;
+      }
+    }
+
+    .el-tabs__content {
+      background-color: #F8F8F8;
+      color: #777777;
+    }
+
+    .el-tabs__nav-scroll {
+      background-color: #F1F1F1;
+    }
+
+    .el-tabs__item {
+      color: #0A0A0A;
+      background-color: #F1F1F1;
+      // border-left: 4px solid #2b2b2b;
+    }
+
+    .el-tabs__item.is-active {
+      color: #0A0A0A;
+      background-color: #F8F8F8;
+      border-left: 4px solid #ffbe11;
+    }
+
+    .el-tabs__item:hover {
+      color: #0A0A0A;
+      background-color: #F8F8F8;
+      border-left: 4px solid #ffbe11;
+    }
+
+    // .el-tabs__item:hover {
+    //   color: #fff;
+    //   background-color: #1a1a1a;
+    //   border-left: 4px solid #ffbe11;
+    // }
+  }
+
+  .bingtai {
+    background: #F1F1F1;
+
+    .topNav {
+
+      background: #1a1a1a url("/static/img/topbg.076c01a6.png") no-repeat right top;
+      color: #fff;
+
+      .placeTypeInfo {
+        background: #2e2e2e;
+        border: 1px solid #555555;
+      }
+    }
+
+    .placeList {
+
+
+      .mutilPlaceName {
+        li {
+          background: #2e2e2e;
+          border-radius: 3px;
+          color: #fff;
+        }
+      }
+    }
+
+    .mainContent {
+      background: #FFF;
+
+      .changeStatusForm {
+        color: #fff;
+
+        .changeStatusBtn {
+          background: #fff;
+        }
+
+        .submitBtn {
+          background: #ffbe11;
+          color: #0a0a0a;
+        }
+
+        .span-box {
+          .time-span {
+            background: #2e2e2e;
+          }
+        }
+
+        .eee {
+          .groupBox {
+            .add-icon {
+              color: #ffbe11;
+            }
+          }
+        }
+      }
+
+      .topNavItem {
+        border-bottom: 1px solid #DFDFDF;
+        color: #0a0a0a;
+      }
+
+      ::v-deep .el-form-item__label {
+        color: #ffffff !important;
+      }
+
+      ::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+        color: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked .el-radio__inner {
+        border-color: #ffbe11;
+        background: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked+.el-radio__label {
+        color: #ffbe11;
+      }
+
+      .sActive {
+        color: #0a0a0a;
+        background: #ffbe11 !important;
+      }
+    }
+  }
+
+  .ktvReserveList {
+    background: #F1F1F1;
+
+    .topNav {
+      background: #1a1a1a url("/static/img/topbg.076c01a6.png") no-repeat right top;
+      color: #fff;
+
+      .topNavBtn {
+        background: #ffbe11;
+        color: #0a0a0a;
+      }
+
+      .placeTypeInfo {
+        background: #2e2e2e;
+        border: 1px solid #555555;
+      }
+
+      .topLeft {
+        .topIcon01 {
+          color: #ffbe11;
+        }
+
+        .topConsole {
+          background-color: #ffbe11 !important;
+          color: #0a0a0a !important;
+
+          i {
+            color: #0a0a0a !important;
+          }
+        }
+
+        .el-button {
+          background-color: #2e2e2e;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .placeList {
+      .mutilPlaceName {
+        li {
+          background: #2e2e2e;
+          color: #fff;
+        }
+      }
+    }
+
+    .mainContent {
+      background: #fff;
+
+      .itemBox {
+
+        // border-bottom: 1px solid #333333;
+        .f-title {
+          color: #0a0a0a;
+
+          i {
+            color: #999
+          }
+        }
+
+        span {
+          color: #0A0A0A
+        }
+      }
+
+      .changeStatusForm {
+        color: #0a0a0a;
+
+        .changeStatusBtn {
+          background: red;
+        }
+
+        .submitBtn {
+          background: #ffbe11;
+          color: #0a0a0a;
+        }
+
+        .span-box {
+          .time-span {
+            background: #2e2e2e;
+          }
+        }
+      }
+
+      .topNavItem {
+        // border-bottom: 1px solid #444444;
+        color: #000;
+      }
+
+      ::v-deep .el-form-item__label {
+        color: #0A0A0A !important;
+      }
+
+      ::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+        color: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked .el-radio__inner {
+        border-color: #ffbe11;
+        background: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked+.el-radio__label {
+        color: #ffbe11;
+      }
+
+      .sActive {
+        color: #0a0a0a;
+        background: #ffbe11 !important;
+      }
+    }
+  }
+
+  .kReserveDetaile {
+    background: #F1F1F1;
+
+    .topNav {
+      background: #1a1a1a url("/static/img/topbg.076c01a6.png") no-repeat right top;
+      color: #fff;
+
+      .topNavBtn {
+        background: #ffbe11;
+        color: #0a0a0a;
+      }
+
+      .placeTypeInfo {
+        background: #2e2e2e;
+        border: 1px solid #555555;
+      }
+
+      .topLeft {
+        .topIcon01 {
+          color: #ffbe11;
+        }
+
+        .topConsole {
+          background-color: #ffbe11 !important;
+          color: #0a0a0a !important;
+
+          i {
+            color: #0a0a0a !important;
+          }
+        }
+
+        .el-button {
+          background-color: #2e2e2e;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .placeList {
+
+      .mutilPlaceName {
+        li {
+          background: #2e2e2e;
+          color: #fff;
+        }
+      }
+    }
+
+    .mainContent {
+      background: #FFFFFF;
+
+      .itemBox {
+        border-bottom: 1px solid #333333;
+      }
+
+      .d-box {
+        color: #0a0a0a;
+      }
+
+      .changeStatusForm {
+        color: #fff;
+
+        .changeStatusBtn {
+          background: #fff;
+        }
+
+        .submitBtn {
+          background: #ffbe11;
+          color: #0a0a0a;
+        }
+
+        .span-box {
+          .time-span {
+            background: #2e2e2e;
+          }
+        }
+      }
+
+      .topNavItem {
+        // border-bottom: 1px solid #444444;
+        color: #000;
+      }
+
+      ::v-deep .el-form-item__label {
+        color: #ffffff !important;
+      }
+
+      ::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+        color: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked .el-radio__inner {
+        border-color: #ffbe11;
+        background: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked+.el-radio__label {
+        color: #ffbe11;
+      }
+
+      .sActive {
+        color: #0a0a0a;
+        background: #ffbe11 !important;
+      }
+    }
+  }
+
+  .cancelOrder {
+    background: #F1F1F1;
+
+    .topNav {
+      background: #1a1a1a url("/static/img/topbg.076c01a6.png") no-repeat right top;
+      color: #fff;
+
+      .topNavBtn {
+        background: #ffbe11;
+        color: #0a0a0a;
+      }
+
+      .placeTypeInfo {
+        background: #2e2e2e;
+        border: 1px solid #555555;
+      }
+
+      .topLeft {
+        .topIcon01 {
+          color: #ffbe11;
+        }
+
+        .topConsole {
+          background-color: #ffbe11 !important;
+          color: #0a0a0a !important;
+
+          i {
+            color: #0a0a0a !important;
+          }
+        }
+
+        .el-button {
+          background-color: #2e2e2e;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .placeList {
+
+      .mutilPlaceName {
+
+        li {
+          background: #2e2e2e;
+          color: #fff;
+        }
+      }
+    }
+
+    .mainContent {
+      background: #FFF;
+
+      // .itemBox {
+      //   border-bottom: 1px solid #333333;
+      // }
+
+      .d-box {
+        color: #0A0A0A;
+      }
+
+      .changeStatusForm {
+        color: #fff;
+
+        .changeStatusBtn {
+          background: #fff;
+        }
+
+        .submitBtn {
+          background: #ffbe11;
+          color: #0a0a0a;
+        }
+
+        .span-box {
+
+          .time-span {
+            background: #2e2e2e;
+          }
+        }
+      }
+
+
+      .topNavItem {
+        // border-bottom: 1px solid #444444;
+        color: #000;
+      }
+
+      ::v-deep .el-form-item__label {
+        color: #ffffff !important;
+      }
+
+      ::v-deep .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+        color: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked .el-radio__inner {
+        border-color: #ffbe11;
+        background: #ffbe11;
+      }
+
+      ::v-deep .el-radio__input.is-checked+.el-radio__label {
+        color: #ffbe11;
+      }
+
+      .sActive {
+        color: #0a0a0a;
+        background: #ffbe11 !important;
+      }
+    }
+  }
+
+  transition: background-color 2s;
+}
